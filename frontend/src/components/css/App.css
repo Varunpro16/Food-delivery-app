@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.sidebar {
+  background: #fff;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-item.active {
+  background: #ffcc00;
+  border-radius: 5px;
+}
+
+.upgrade-box {
+  background: #ffe580;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.main-content {
+  background: #fff;
+}
+
+.top-bar {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  width: 300px;
+}
+
+.discount-banner {
+  background: linear-gradient(135deg, #ffcc00, #ff9900);
+  border-radius: 10px;
+}
+
+.category-list {
+  display: flex;
+  gap: 20px;
+}
+
+.category-item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.category-icon {
+  font-size: 30px;
+}
+
+.dish-card {
+  background: #fff;
+  border-radius: 10px;
+}
+
+.discount-badge {
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
